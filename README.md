@@ -4,9 +4,9 @@
 
 <h1 align="center">Stringz</h1>
 <p align="center"><i>It is Strings but with a Z 😬</i></p>
-<!-- <p align="center"><i>Loved the project? Please visit give it a ⭐️</i></p> -->
 
 ![Stingz](https://raw.githubusercontent.com/mohakapt/Stringz/master/hero_image.png)
+<p align="center"><i>Loved the project? Please share it with your friends and give it a ⭐️</i></p>
 
 > Stringz is a lightweight yet powerful tool that makes translating your Xcode projects(iOS, macOS, tvOS and watchOS) easy and relieble.
 
