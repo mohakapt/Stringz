@@ -3,13 +3,13 @@
 </p>
 
 <h1 align="center">Stringz</h1>
-<p align="center"><i>It is Strings but with a Z</i></p>
+<p align="center"><i>It is Strings but with a Z 😬</i></p>
 
 <p align="center"><i>Loved the project? Please visit give it a ⭐️</i></p>
 
 Stringz is an application for macOS that (in my opinion) will save you a lot of headache while internationalizing your Xcode project.
 
-![Stingz](https://bytebucket.org/mohaka/stringz/raw/bb98950731f8b3823e367d6b89fa2b359016a0de/Images/stringz-overview.png?token=10d9aa885eebcce0fba12e00fe3dddd6828187f6)
+![Stingz](https://raw.githubusercontent.com/mohakapt/Stringz/master/hero_image.png)
 
 ## Features
 * Filter strings to show only translated or untranslated strings.
