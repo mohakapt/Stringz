@@ -2,7 +2,6 @@
 <img src="https://raw.githubusercontent.com/mohakapt/Stringz/master/app_icon.png">
 </p>
 
-<h1 align="center">Stringz</h1>
 <p align="center"><i>It is Strings but with a Z 😬</i></p>
 
 ![Stingz](https://raw.githubusercontent.com/mohakapt/Stringz/master/hero_image.png)
