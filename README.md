@@ -44,6 +44,10 @@
 ⬇️ Installation
 </h2>
 
+1. Go to [releases](https://github.com/mohakapt/Stringz/releases) page for this repository.
+1. Download the latest version of the app from the assets section. (It should be named something like Stringz-x.x.x.dmg).
+1. Open the downloaded file and drag the app to your Applications folder.
+1. The application doesn't have auto update feature (yet), so make sure to occasionally check this github repository for new releases.
 
 <h2 id='section_usage'>
 🔌 Usage
