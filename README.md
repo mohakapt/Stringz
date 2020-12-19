@@ -7,7 +7,7 @@
 ![Stingz](https://raw.githubusercontent.com/mohakapt/Stringz/master/hero_image.png)
 <p align="center"><i>Loved the project? Please share it with your friends and give it a ⭐️</i></p>
 
-> Stringz is a lightweight yet powerful tool that makes translating your Xcode projects(iOS, macOS, tvOS and watchOS) easy and relieble.
+> Stringz is a lightweight yet powerful editor that makes translating your iOS app easy and fast.
 
 <h2 id='section_description'>
 ✏️ Description
