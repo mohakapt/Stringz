@@ -68,6 +68,7 @@ Stringz will also highlight missing translations and warn you about duplicate va
 🤝 Contributing
 </h2>
 
+This project is not open soruce, but that doesn't mean you can't contribute to the development of the project. A great way to help pushing this project forward is to download it and test it on your applications then submit an [issue](https://github.com/mohakapt/Stringz/issues) about any bugs, crashes or any unexpected behaviors you might encounter, Also suggestions and feature requests are super welcomed. So if you encounter some kind of inconvenience please don't give up on the application, submit an [issue](https://github.com/mohakapt/Stringz/issues) and help make this project better.
 
 <h2 id='section_faq'>
 💡 FAQ
