@@ -2,5 +2,35 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Stringz Changelog</title>
+    <link>https://raw.githubusercontent.com/mohakapt/Stringz/master/appcast.xml</link>
+    <description>Most recent changes with links to updates.</description>
+    <language>en</language>
+
+    <item>
+      <title>Stringz 0.3.0</title>
+      <pubDate>Tue, 22 Dec 2020 21:05:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.3.0/Stringz-0.3.0.dmg" sparkle:version="0.3.0" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+<p><strong>Good day, Everyone! 👋</strong> In this release I fixed some bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+<p><strong><em>⚠️ Warning:</em></strong></p>
+<ul>
+<li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+</ul>
+<p><strong><em>✨ What&#39;s new:</em></strong></p>
+<ul>
+<li>Implemented undo/redo feature to make translating a lot easier.</li>
+<li>Added support sorting values in table by any column.</li>
+<li>Implemented new settings for exporting strings in original order/alphabetically/base order.</li>
+</ul>
+<p><strong><em>🐛 Bug fixes:</em></strong></p>
+<ul>
+<li>Fixed a bug where the table wouldn&#39;t reorder when some of its values get changed.</li>
+<li>Fixed a bug table columns where sometimes the order of the columns is randomly changed.</li>
+</ul>
+          ]]>
+      </description>
+    </item>
   </channel>
 </rss>
