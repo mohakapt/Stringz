@@ -7,12 +7,63 @@
     <language>en</language>
 
     <item>
+      <title>Stringz 0.3.1</title>
+      <pubDate>Tue, 22 Dec 2020 22:55:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.3.1/Stringz-0.3.1.dmg" sparkle:version="27" sparkle:shortVersionString="0.3.1" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I fixed some bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>Implemented support for pushing updates over the air, So you can quickly receive latest features and bug fixes.</li>
+          <li>Added support for macOS Catalina.</li>
+          <li>Added support for comments in *.strings files.</li>
+          <li>Dramatically improved project loading time by asynchronously loading localizable files.</li>
+          <li>Added new pane to preferences to provides options related to exporting *.strings files.</li>
+          <li>Added option in preferences to hide unlocalized files from sidebar.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a bug in editor where sometimes missing values aren&#39;t highlighted.</li>
+          <li>Sidebar now displays files correctly in alphabetical order.</li>
+          <li>Fix a bug in importer where unlocalizable files would sometimes be imported.</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
       <title>Stringz 0.3.0</title>
       <pubDate>Tue, 22 Dec 2020 21:25:00 +0000</pubDate>
       <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.3.0/Stringz-0.3.0.dmg" sparkle:version="26" sparkle:shortVersionString="0.3.0" type="application/octet-stream"/>
 
       <description>
           <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I fixed some bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>Implemented support for pushing updates over the air, So you can quickly receive latest features and bug fixes.</li>
+          <li>Added support for macOS Catalina.</li>
+          <li>Added support for comments in *.strings files.</li>
+          <li>Dramatically improved project loading time by asynchronously loading localizable files.</li>
+          <li>Added new pane to preferences to provides options related to exporting *.strings files.</li>
+          <li>Added option in preferences to hide unlocalized files from sidebar.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a bug in editor where sometimes missing values aren&#39;t highlighted.</li>
+          <li>Sidebar now displays files correctly in alphabetical order.</li>
+          <li>Fix a bug in importer where unlocalizable files would sometimes be imported.</li>
+          </ul>
           ]]>
       </description>
     </item>
