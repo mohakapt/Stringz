@@ -8,27 +8,87 @@
 
     <item>
       <title>Stringz 0.3.0</title>
-      <pubDate>Tue, 22 Dec 2020 21:05:00 +0000</pubDate>
-      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.3.0/Stringz-0.3.0.dmg" sparkle:version="26" type="application/octet-stream"/>
+      <pubDate>Tue, 22 Dec 2020 21:25:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.3.0/Stringz-0.3.0.dmg" sparkle:version="26" sparkle:shortVersionString="0.3.0" type="application/octet-stream"/>
 
       <description>
           <![CDATA[
-<p><strong>Good day, Everyone! 👋</strong> In this release I fixed some bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
-<p><strong><em>⚠️ Warning:</em></strong></p>
-<ul>
-<li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
-</ul>
-<p><strong><em>✨ What&#39;s new:</em></strong></p>
-<ul>
-<li>Implemented undo/redo feature to make translating a lot easier.</li>
-<li>Added support sorting values in table by any column.</li>
-<li>Implemented new settings for exporting strings in original order/alphabetically/base order.</li>
-</ul>
-<p><strong><em>🐛 Bug fixes:</em></strong></p>
-<ul>
-<li>Fixed a bug where the table wouldn&#39;t reorder when some of its values get changed.</li>
-<li>Fixed a bug table columns where sometimes the order of the columns is randomly changed.</li>
-</ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
+      <title>Stringz 0.2.8</title>
+      <pubDate>Sun, 20 Dec 2020 15:15:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.2.8/Stringz-0.2.8.dmg" sparkle:version="25" sparkle:shortVersionString="0.2.8" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I fixed some bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>Implemented undo/redo feature to make translating a lot easier.</li>
+          <li>Added support sorting values in table by any column.</li>
+          <li>Implemented new settings for exporting strings in original order/alphabetically/base order.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a bug where the table wouldn&#39;t reorder when some of its values get changed.</li>
+          <li>Fixed a bug table columns where sometimes the order of the columns is randomly changed.</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
+      <title>Stringz 0.2.7</title>
+      <pubDate>Sat, 19 Dec 2020 18:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.2.7/Stringz-0.2.7.dmg" sparkle:version="24" sparkle:shortVersionString="0.2.7" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I fixed some bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>Added support for more languages like &quot;en-in&quot;, &quot;ms&quot;, &quot;pl&quot; and more.</li>
+          <li>Implemented an option to ignore automatically generated comment in storyboards.</li>
+          <li>Displayed the flag of the country where the language is mostly used.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a bug where the app wouldn&#39;t import strings in base language.</li>
+          <li>Fixed a bug in the file localizer where the app wouldn&#39;t identify strings files sometimes.</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
+      <title>Version 0.2.6</title>
+      <pubDate>Fri, 18 Dec 2020 16:30:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.2.6/Stringz-0.2.6.dmg" sparkle:version="23" sparkle:shortVersionString="0.2.6" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> This is the first release of Stringz application. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>The entire application.</li>
+          <li>The ability to automatically crawl the project and find localizable files.</li>
+          <li>Support for localizing .strings, .storyboard, .xib and .plist files.</li>
+          </ul>
           ]]>
       </description>
     </item>
