@@ -14,10 +14,10 @@
 </h2>
 
 Stringz greatly simplifies localizing your Xcode apps (iOS, macOS, tvOS and watchOS) by introducing a powerful editor for all localizable files in your project.
-It will even import strings from storyboard and xib files saving you a lot of time and effort finding the element id in the storyboard.
+It will even import strings from storyboard and xib files saving you a lot of time and effort finding elementIds in the storyboard.
 Stringz also supports localizing your Info.plist file so you can easily translate your app name and permission descriptions.
 
-Stringz will also highlight missing translations and warn you about duplicate values and has many more useful features that takes a painful and tedious task like localizing your app and converts it to an easy and fast task.
+Stringz will also highlight missing translations and warn you about duplicate values and has many more useful features that takes a painful and tedious task like localizing your app and converts it to an easy and simple task.
 
 <h2 id='section_features'>
 ✨ Features
