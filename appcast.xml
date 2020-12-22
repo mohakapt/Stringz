@@ -18,6 +18,7 @@
           <ul>
           <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
           </ul>
+          <p><strong><em>This is a version bump just to test auto update feature</em></strong>.</p>
           <p><strong><em>✨ What&#39;s new:</em></strong></p>
           <ul>
           <li>Implemented support for pushing updates over the air, So you can quickly receive latest features and bug fixes.</li>
