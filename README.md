@@ -63,6 +63,13 @@ Stringz will also highlight missing translations and warn you about duplicate va
 🔌 Usage
 </h2>
 
+Open the application and select your Xcode project (.xcodeproj) in the open dialog, Stringz will then automatically crawl your project, find localizable files, and diplay them in the sidebar. Select a localizable file from the sidebar to view its contents. From there you can add/delete/update strings and add new languages.
+
+The application has autosave feature so it should automatically save your changes as you make them (You can also disable this feature from preferences if you don't want Xcode to reload every time you update a string).
+
+Preferences also contains some useful options regarding loading localizable files and exporting .strings files to your project. So I would storngly advice to to check preferences out.
+
+There is a sample app included in this repository, The application was tested havily with this sample app, So I strongly encorage you to download the sample app and run Stringz on it to examin how Stringz should correctly work, If you encounter an unexpected behaviors with your own app please consider submitting an [issue](https://github.com/mohakapt/Stringz/issues) and I'l make sure to fix it as quickly as possible.
 
 <h2 id='section_contributing'>
 🤝 Contributing
