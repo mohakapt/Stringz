@@ -1,0 +1,17 @@
+"action_next" = "次";
+"action_previous" = "前";
+"action_cancel" = "キャンセル";
+"action_sendFeedback" = "フィードバックを送信する";
+"text_nameRequired" = "名前フィールドは必須です";
+"text_passwordRequired" = "パスワードフィールドは必須です";
+"title_login" = "ログインする";
+"title_register" = "登録";
+"action_clear" = "晴れ";
+"msg_welcome" = "Stringzアプリへようこそ";
+"text_description" = "説明";
+"action_cancelAll" = "すべてキャンセル";
+"action_ok" = "OK";
+"title_browse" = "ブラウズ";
+"title_discover" = "発見する";
+"title_popular" = "人気";
+"action_done" = "完了";

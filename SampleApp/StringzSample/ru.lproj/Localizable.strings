@@ -1,0 +1,17 @@
+"action_next" = "Cледующий";
+"action_previous" = "Предыдущий";
+"action_cancel" = "Отменить";
+"action_sendFeedback" = "Отправить отзыв";
+"text_nameRequired" = "Поле имени обязательно для заполнения";
+"text_passwordRequired" = "Поле пароля обязательно для заполнения";
+"title_login" = "Авторизоваться";
+"title_register" = "Pегистр";
+"action_clear" = "Очистить";
+"msg_welcome" = "Добро пожаловать в приложение Stringz";
+"text_description" = "Описание";
+"action_cancelAll" = "Отменить все";
+"action_ok" = "Хорошо";
+"title_browse" = "Просматривать";
+"title_discover" = "Обнаружить";
+"title_popular" = "Популярный";
+"action_done" = "Готово";

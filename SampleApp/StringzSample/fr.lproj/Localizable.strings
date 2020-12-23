@@ -1,0 +1,17 @@
+"action_next" = "Prochain";
+"action_previous" = "Précédent";
+"action_cancel" = "Annuler";
+"action_sendFeedback" = "Envoyer des commentaires";
+"text_nameRequired" = "Le champ de nom est obligatoire";
+"text_passwordRequired" = "Le champ du mot de passe est obligatoire";
+"title_login" = "S'identifier";
+"title_register" = "S'inscrire";
+"action_clear" = "Clair";
+"msg_welcome" = "Bienvenue dans l'application Stringz";
+"text_description" = "La description";
+"action_cancelAll" = "Annuler tout";
+"action_ok" = "D'accord";
+"title_browse" = "Feuilleter";
+"title_discover" = "Découvrir";
+"title_popular" = "Populaire";
+"action_done" = "Terminé";
