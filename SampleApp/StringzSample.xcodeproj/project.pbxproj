@@ -18,10 +18,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1414DCD2A9774EC4CABEF056 /* de */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = de; path = de.lproj/TableCell.strings; sourceTree = "<group>"; };
 		17FE0D18A4309A3B7CC4249C /* ru */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
 		24714648F532A4D0F3D68227 /* ar */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		410F2680DA7009F1DEE8E10D /* ja */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		55FE0609E22EF89824F2AAB7 /* fr */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5683E515852EC8A048897894 /* it */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = it; path = it.lproj/TableCell.strings; sourceTree = "<group>"; };
 		6B446984A48E2ABAF58179EF /* ar */ = {isa = PBXFileReference; explicitFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
 		710269FB258C0B02001E7588 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		711CF004258BFF5900C62052 /* StringzSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StringzSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -125,6 +127,8 @@
 				ja,
 				ru,
 				fr,
+				it,
+				de,
 			);
 			mainGroup = 711CEFFB258BFF5900C62052;
 			productRefGroup = 711CF005258BFF5900C62052 /* Products */;
@@ -192,6 +196,8 @@
 			children = (
 				CC9B3983087E6C0F567AA6E6 /* Base */,
 				A668249697C3019A004BACFC /* fr */,
+				5683E515852EC8A048897894 /* it */,
+				1414DCD2A9774EC4CABEF056 /* de */,
 			);
 			name = TableCell.xib;
 			sourceTree = "<group>";
