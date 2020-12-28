@@ -7,6 +7,33 @@
     <language>en</language>
 
     <item>
+      <title>Stringz 0.4.2</title>
+      <pubDate>Mon, 28 Dec 2020 21:30:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.4.2/Stringz-0.4.2.dmg" sparkle:version="30" sparkle:shortVersionString="0.4.2" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I continue to fix bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>New option to disable loading project files automatically (can improve loading time in massive projects).</li>
+          <li>Added new option in preferences to ignore automatically generated comments in storyboards.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a bug in symbolic localizable files.</li>
+          <li>Fixed a bug where the app would crash while localizing unlocalized files.</li>
+          <li>Fix a bug in editor where rows ordering would change randomly.</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
       <title>Stringz 0.4.0</title>
       <pubDate>Fri, 25 Dec 2020 19:30:00 +0000</pubDate>
       <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.4.0/Stringz-0.4.0.dmg" sparkle:version="29" sparkle:shortVersionString="0.4.0" type="application/octet-stream"/>
