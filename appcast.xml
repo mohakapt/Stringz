@@ -7,6 +7,27 @@
     <language>en</language>
 
     <item>
+      <title>Stringz 0.4.3</title>
+      <pubDate>Mon, 28 Dec 2020 23:15:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.4.3/Stringz-0.4.3.dmg" sparkle:version="31" sparkle:shortVersionString="0.4.3" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I continue to fix bugs and improved UX. The release is marked as alpha because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about bugs you encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed critical bug causing the app to crash while loading a project.</li>
+          <li>Fixed a bug in the editor where the app would sometimes crash while updating values.</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
       <title>Stringz 0.4.2</title>
       <pubDate>Mon, 28 Dec 2020 21:30:00 +0000</pubDate>
       <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.4.2/Stringz-0.4.2.dmg" sparkle:version="30" sparkle:shortVersionString="0.4.2" type="application/octet-stream"/>
