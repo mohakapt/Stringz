@@ -69,7 +69,7 @@ The application has autosave feature so it should automatically save your change
 
 Preferences also contains some useful options regarding loading localizable files and exporting .strings files to your project. So I would storngly advice to to check preferences out.
 
-There is a sample app included in this repository, The application was tested havily with this sample app, So I strongly encorage you to download the sample app and run Stringz on it to examin how Stringz should correctly work, If you encounter an unexpected behaviors with your own app please consider submitting an [issue](https://github.com/mohakapt/Stringz/issues) and I'l make sure to fix it as quickly as possible.
+There is a sample app included in this repository, The application was tested havily with this sample app, So I strongly encorage you to download the sample app and run Stringz on it to examin how Stringz should correctly work, If you encounter an unexpected behaviors with your own app please consider submitting an [issue](https://github.com/mohakapt/Stringz/issues) and I'll make sure to fix it as quickly as possible.
 
 <h2 id='section_contributing'>
 🤝 Contributing
@@ -92,45 +92,10 @@ Stringz uses `XcodeEditor` to open xcode projects and browse their contents
 <h2 id='section_support'>
 👍 Support
 </h2>
+If you found a bug in the application please submit an [issue](https://github.com/mohakapt/Stringz/issues) and I'll make sure to fix it as quickly as possible.
 
+If you need support or have questions/feature requests regarding the app you can send me an [email](mailto:mohakapt@gmail.com) and I'll be happy to respone.
 
 <h2 id='section_license'>
 📝 License
 </h2>
-<!--
-## Installation
-1. Clone this repository somewhere on your mac.
-2. Run the following command in Terminal:
-
-```ruby
-pod install
-```
-
-3. Open `Stringz.xcworkspace`, Build the project and run it on your mac.
-4. That's it.
-
-## Requirements
-* Runtime: macOS 10.12 or greater (Yeah! I know, I'll try to pull this down very soon)
-* Build: Xcode 8 and 10.12 SDK or greater
-
-## Stuff i'd love to implement -as soon as i get some free time-
-* Code spider to analyze the code and extract strings from classes
-* Fetch initial translation from Google Translate
-* Support for storyboards and xibs
-* Support for Android strings
-* Ability to enable internationalization on project
-* Recent search history
-* Support for untranslatable strings
-* Ability to catigorize strings in the .strings file
-
-## Dependencies
-
-
-## Important
-Stringz still in its **beta versions**. Your app is amazing and i don't want it to get ruined because of me, so please do what any cautious developer would do and make a commit before using Stringz or (if you don't have version control in your app) make a backup of your app.
-
-## Contributions
-Stringz is my first macOS project so if you run into some messy code please don't judge instead create a pull request into `development` branch and i will be more than happy to merge it (Explaining what you changed and why would be highly appreciated).
-
-## License
-Stringz is available under the MIT license. See the LICENSE file for more information. -->
