@@ -7,6 +7,42 @@
     <language>en</language>
 
     <item>
+      <title>Stringz 0.5.1</title>
+      <pubDate>Sun, 3 Jan 2021 00:45:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.5.1/Stringz-0.5.1.dmg" sparkle:version="36" sparkle:shortVersionString="0.5.1" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I added new preferences and fixed quite a lot of bugs. The release is marked as beta because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about any problems you might encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>Ability to hide Key and Comment columns in editor.</li>
+          <li>New options in Preferences window (Search, Storyboards and Updates).</li>
+          <li>The app now will ask the user to submit an issue if the last session crashed.</li>
+          </ul>
+          <p><strong><em>♻️ Improvements:</em></strong></p>
+          <ul>
+          <li>Rearranged app menus and shortcuts to some of them.</li>
+          <li>Adding strings is now done by showing a sheet asking for key.</li>
+          <li>Automatically disable unavailable items in toolbar and menu bar.</li>
+          <li>Updated some icons throughout the app.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a bug related to locating Xcode on user&#39;s machine.</li>
+          <li>Centered filter item in the toolbar on macOS Catalina and older.</li>
+          <li>Fixed animation jump in preferences window.</li>
+          <li>Fixed a bug in sidebar (After hiding the sidebar the selected file was being forgotten).</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
       <title>Stringz 0.4.3</title>
       <pubDate>Mon, 28 Dec 2020 23:15:00 +0000</pubDate>
       <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.4.3/Stringz-0.4.3.dmg" sparkle:version="31" sparkle:shortVersionString="0.4.3" type="application/octet-stream"/>
