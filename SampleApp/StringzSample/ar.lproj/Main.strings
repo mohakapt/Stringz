@@ -1,6 +1,17 @@
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "6Tf-tV-OMu"; */
 "6Tf-tV-OMu.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "8B3-IS-qQZ"; */
 "8B3-IS-qQZ.placeholder" = "كلمة المرور";
+
+/* Class = "UINavigationItem"; title = "Login"; ObjectID = "OIH-VB-V7i"; */
 "OIH-VB-V7i.title" = "تسجيل الدخول";
+
+/* Class = "UIButton"; normalTitle = "Reset Password"; ObjectID = "afW-bL-wt7"; */
 "afW-bL-wt7.normalTitle" = "إعادة تعيين كلمة المرور";
+
+/* Class = "UIButton"; normalTitle = "Create Account"; ObjectID = "cRZ-Rv-L2u"; */
 "cRZ-Rv-L2u.normalTitle" = "إنشاء حساب";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "l4g-jW-Op5"; */
 "l4g-jW-Op5.placeholder" = "اسم المستخدم";
