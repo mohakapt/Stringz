@@ -4,6 +4,19 @@
 
 <p align="center"><i>It is Strings but with a Z 😬</i></p>
 
+<p align="center">
+  <a href="https://github.com/mohakapt/Stringz/releases">
+    <img src="https://img.shields.io/github/v/release/mohakapt/stringz?label=version" alt="Latest Version">
+  </a>
+
+  <img src="https://img.shields.io/badge/platform-macOS-yellow" alt="" >
+
+  <a href="https://twitter.com/intent/follow?screen_name=stringz_app">
+    <img src="https://img.shields.io/twitter/follow/stringz_app?style=social&logo=twitter" alt="follow on Twitter">
+  </a>
+</p>
+
+
 ![Stingz](https://raw.githubusercontent.com/mohakapt/Stringz/master/hero_image.png)
 <p align="center"><i>Loved the project? Please share it with your friends and give it a ⭐️</i></p>
 
