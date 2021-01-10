@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://raw.githubusercontent.com/mohakapt/Stringz/master/app_icon.png">
+<img src="https://raw.githubusercontent.com/mohakapt/Stringz/master/Resources/app_icon.svg">
 </p>
 
 <p align="center"><i>It is Strings but with a Z 😬</i></p>
