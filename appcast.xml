@@ -7,6 +7,26 @@
     <language>en</language>
 
     <item>
+      <title>Stringz 0.6.3</title>
+      <pubDate>Sun, 14 Jan 2021 02:40:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.6.3/Stringz-0.6.3.dmg" sparkle:version="40" sparkle:shortVersionString="0.6.3" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I fixed a critical bug causing the app to import strings incorrectly. The release is marked as beta because the project is still in early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about any problems you might encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a critical bug causing the app to incorrectly import string containing &quot; characters.</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
       <title>Stringz 0.6.2</title>
       <pubDate>Sun, 10 Jan 2021 00:45:00 +0000</pubDate>
       <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.6.2/Stringz-0.6.2.dmg" sparkle:version="39" sparkle:shortVersionString="0.6.2" type="application/octet-stream"/>
