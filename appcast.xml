@@ -7,6 +7,31 @@
     <language>en</language>
 
     <item>
+      <title>Stringz 0.6.5</title>
+      <pubDate>Thu, 21 Mar 2021 00:10:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.6.5/Stringz-0.6.5.dmg" sparkle:version="42" sparkle:shortVersionString="0.6.5" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release I fixed a critical bug causing the app to crash when search options are changed. The release is marked as a beta because the project is still in its early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about any problems you might encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Your app is amazing and I don&#39;t want it to get ruined because of me, So please do what any cautious developer would do and make a commit before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your app.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>Added a pro tip regarding the naming of strings in &quot;Add String&quot; dialog.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed an app crash that happens when the user changes search options.</li>
+          <li>Changed the flag of Traditional Chinese to 🇹🇼.</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
       <title>Stringz 0.6.4</title>
       <pubDate>Thu, 28 Jan 2021 23:30:00 +0000</pubDate>
       <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.6.4/Stringz-0.6.4.dmg" sparkle:version="41" sparkle:shortVersionString="0.6.4" type="application/octet-stream"/>
