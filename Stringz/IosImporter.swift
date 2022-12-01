@@ -220,7 +220,7 @@ class IosImporter {
 
   static func language(for file: PBXFileReference, defaultLanguage: Language? = nil) -> Language? {
     guard let name = file.name else { return defaultLanguage }
-    return Language(rawValue: name.lowercased()) ?? defaultLanguage
+    return Language(rawValue: name) ?? defaultLanguage
   }
 
   static func values(in file: File, with options: ImporterOptions, and buildSettings: BuildSettings? = nil) -> [ValueHolder] {
