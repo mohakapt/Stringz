@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -96,7 +96,7 @@
                                 <rect key="frame" x="72" y="698" width="430" height="28"/>
                                 <textFieldCell key="cell" id="zto-Pu-cUZ">
                                     <font key="font" metaFont="message" size="11"/>
-                                    <string key="title">Automatically save changes you make while editing. Autosave greatly reduce the chance of losing your work in the event of a system error.</string>
+                                    <string key="title">Automatically save changes you make while editing. Autosave greatly reduces the chance of losing your work in the event of a system error.</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -130,7 +130,7 @@
                                 <rect key="frame" x="72" y="614" width="430" height="42"/>
                                 <textFieldCell key="cell" id="25O-QX-WCX">
                                     <font key="font" metaFont="message" size="11"/>
-                                    <string key="title">Automatically load all localizable files when you open a project with Stringz. Unchecking this option can help imporving project load time if you're trying to load a giant project with many localizable files.</string>
+                                    <string key="title">Automatically load all localizable files when you open a project with Stringz. Unchecking this option can help improve project load time if you're trying to load a giant project with many localizable files.</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -167,7 +167,7 @@
                         <gridCell row="JFa-Ak-G4I" column="EJb-zY-cux" id="vCd-fe-r3N"/>
                         <gridCell row="JFa-Ak-G4I" column="zoe-rf-O2S" id="rZF-rN-V0b">
                             <button key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="MAR-ja-BIC">
-                                <rect key="frame" x="72" y="537" width="195" height="18"/>
+                                <rect key="frame" x="72" y="537" width="194" height="18"/>
                                 <buttonCell key="cell" type="check" title="Immediately start searching" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="p9U-vy-Dkj">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -183,7 +183,7 @@
                                 <rect key="frame" x="72" y="474" width="430" height="56"/>
                                 <textFieldCell key="cell" id="NbG-da-LVk">
                                     <font key="font" metaFont="message" size="11"/>
-                                    <string key="title">When checked the search will start as soon as you type someting in search field also search results will always be syncronized when working in the editor. This might cause performance hit in giant projects so you might disable it if you're experencing poor performance.</string>
+                                    <string key="title">When checked the search will start as soon as you type something in the search field also search results will always be synchronized when working in the editor. This might cause performance hits in giant projects so you might disable it if you're experiencing poor performance.</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
@@ -230,8 +230,8 @@
                         <gridCell row="zx3-Na-5gV" column="EJb-zY-cux" id="Irh-DC-vT7"/>
                         <gridCell row="zx3-Na-5gV" column="zoe-rf-O2S" id="VBE-qV-ysG">
                             <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="kAA-OB-T8m">
-                                <rect key="frame" x="72" y="366" width="253" height="14"/>
-                                <textFieldCell key="cell" title="Show unlocalized files in sidebar with files tree." id="JKu-0g-3TH">
+                                <rect key="frame" x="72" y="366" width="198" height="14"/>
+                                <textFieldCell key="cell" title="Show unlocalized files in the sidebar." id="JKu-0g-3TH">
                                     <font key="font" metaFont="message" size="11"/>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -255,7 +255,7 @@
                         <gridCell row="bhN-9g-O9h" column="zoe-rf-O2S" id="aWZ-YF-tKX">
                             <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="lsO-WU-noE">
                                 <rect key="frame" x="72" y="310" width="341" height="14"/>
-                                <textFieldCell key="cell" title="Show the flag of the country where the langauge is mostly used." id="DIM-7l-FhB">
+                                <textFieldCell key="cell" title="Show the flag of the country where the language is mostly used." id="DIM-7l-FhB">
                                     <font key="font" metaFont="message" size="11"/>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -342,7 +342,7 @@
                                     <font key="font" metaFont="message" size="11"/>
                                     <string key="title">Sharing anonymous usage data cannot be disabled in beta versions.
 
-Don't worry, we care about privacy as much as you do. None of the data we collect can be used to personally identify you. The collected data consists of crash reports and some anonymous analytics. We never sell this data under any circumstances, we only use it to fix crashes and improve the application.</string>
+Don't worry, I care about privacy as much as you do. None of the data collected can be used to personally identify you or your projects. The collected data consists of crash reports and some anonymous analytics. I only use this data to fix crashes and improve the application.</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>

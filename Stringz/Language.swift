@@ -142,7 +142,7 @@ enum Language: String, CaseIterable {
   case yoruba = "yo"
   case zulu = "zu"
   
-  /// Returns a firendly name for the language to be displayed in the table view.
+  /// Returns a friendly name for the language to be displayed in the table view.
   var fiendlyName: String {
     switch self {
     case .base: return "Base"

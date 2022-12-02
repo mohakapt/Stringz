@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -1121,17 +1121,17 @@ DQ
                                 <rect key="frame" x="18" y="20" width="414" height="448"/>
                                 <textFieldCell key="cell" selectable="YES" id="iuJ-qS-3Gb">
                                     <font key="font" metaFont="system"/>
-                                    <mutableString key="title">I'd highly advise naming your strings uniquely and consistently across the project.
+                                    <mutableString key="title">I highly advise naming your strings uniquely and consistently across the project.
 
 For example, For a button you could name the string "action_cancel", The first part (action) means that the string is going to be used to trigger an action, and the second part (cancel) represents the name.
 
 Along with "action (for buttons and actions)" I use "title (for screen or alert titles)", "text (for other strings)" and "error (for error messages)". This approach has the following benefits:
 
-    • It makes your keys unique so finding and replacing becomes easy and stressless.
+    • It makes your keys unique so finding and replacing them becomes easy and stressless.
 
-    • It gives a context for your translator regarding where is the string being used. For example, In English the word "Profile" could be used to refer to "Account Details" but also it could mean "to analyze or to describe someone" but in Spanish, those are two separate words. So naming the keys as "title_profile" or "action_profile" helps your translator to understand the context better.
+    • It gives context for your translator regarding where a string is being used. For example, In English the word "Profile" could be used to refer to "Account Details" but also it could mean "to analyze or to describe someone" but in Spanish, those are two separate words. So naming the keys as "title_profile" or "action_profile" helps your translator to understand the context better.
 
-    • It makes your strings more reusable. For example, In any project, you're most likely going to need the words "OK", "Cancel", "Done", "Delete", "Refresh"... in many places, So using the method I described above will help you reuse those words instead of defining duplicates in your codebase.</mutableString>
+    • It makes your strings more reusable. For example, In any project, you're most likely going to need the words "OK", "Cancel", "Done", "Delete", or "Refresh"... in many places, So using the method I described above will help you reuse those words instead of defining duplicates in your codebase.</mutableString>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>

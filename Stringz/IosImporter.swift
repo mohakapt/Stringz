@@ -11,7 +11,7 @@ import XcodeProj
 import PathKit
 
 class IosImporter {
-  /// Finds string values in *.strings files, This expression also match any comments the string might have.
+  /// Finds string values in *.strings files, This expression also matchs any comments the string might have.
   static let findStringWithCommentExpression =
     "("
     + findInlineCommentExpression + "*"
@@ -21,7 +21,7 @@ class IosImporter {
     + "?"
     + findStringExpression
 
-  /// Matches only string values in given *.strings file, Matches any whitespaces exsiting in between the values but doen't match any comments.
+  /// Matches only string values in given *.strings file, Matches any whitespaces exsiting in between the values but doesn't match any comments.
   static let findStringExpression = #"("[^\"]*"\s*=\s*".+?"\s*;)"#
   /// Matches all unnecessary whitespaces the value might have, Can be used to clean the value.
   static let cleanStringExpression = #""\s*=\s*""#
@@ -29,7 +29,7 @@ class IosImporter {
   static let findInlineCommentExpression = #"(\/\/.*(\n\s*?))"#
   static let findPrologueCommentExpression = #"(\/\*(.|\n)*?\*\/(\n\s*?)*)"#
 
-  /// Matches only comment values in given *.strings file, Matches any whitespaces exsiting in between the comments but doen't match any values.
+  /// Matches only comment values in given *.strings file, Matches any whitespaces exsiting in between the comments but doesn't match any values.
   static let findCommentExpression = findInlineCommentExpression + "|" + findPrologueCommentExpression
   /// Matches all unnecessary whitespaces the comment might have, Can be used to clean the comment.
   static let cleanCommentExpression = #"(\/\*\s*)|(\s*\*\/)|(\/\/\s*)"#

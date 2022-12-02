@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -102,7 +102,7 @@
                                 <rect key="frame" x="55" y="62" width="407" height="112"/>
                                 <textFieldCell key="cell" id="HCQ-xF-ZFA">
                                     <font key="font" metaFont="message" size="11"/>
-                                    <string key="title">Stringz needs Xcode in order to extract localizable values from Storyboard and Xib files, By default Stringz tries to locate Xcode in "Applications" folder, If you happened to install it in different location you'll need to select that location manually.
+                                    <string key="title">Stringz needs Xcode in order to extract localizable values from Storyboard and Xib files, By default Stringz tries to locate Xcode in the "Applications" folder, If you happened to install it in a different location you'll need to select that location manually.
 
 You can still use Stringz without installing Xcode or providing its path, but it's highly recommended to provide Xcode path in order to take maximum benefit from Stringz app.</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
@@ -131,7 +131,7 @@ You can still use Stringz without installing Xcode or providing its path, but it
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Z7j-M3-dL1">
                                         <rect key="frame" x="34" y="6" width="378" height="15"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="These options cannot be changed while you have an open project." id="uOg-kp-aAu">
-                                            <font key="font" metaFont="system" size="12"/>
+                                            <font key="font" metaFont="cellTitle"/>
                                             <color key="textColor" name="secondaryLabelColor" catalog="System" colorSpace="catalog"/>
                                             <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                         </textFieldCell>

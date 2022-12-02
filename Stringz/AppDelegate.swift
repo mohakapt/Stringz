@@ -70,7 +70,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     if Crashes.hasCrashedInLastSession {
       let alert = NSAlert()
       alert.messageText = "Ooops!"
-      alert.informativeText = "Looks like the app crashed in the last session. Strings is still in its early pahses and I'm working hard to make it better. If you have the time please consider submitting an issue, This will help to make the app better for you and others."
+      alert.informativeText = "Looks like the app crashed in the last session. Stringz is still in its early phases and I'm working hard to make it better. If you have the time please consider submitting an issue, This will help to make the app better for you and others."
       alert.addButton(withTitle: "Submit an Issue")
       alert.addButton(withTitle: "Maybe later")
 
@@ -126,7 +126,7 @@ extension AppDelegate {
         if let url = dialog.url, self.openProject(url) {
 
         } else {
-          let _ = Common.alert(message: "Unable to load your project", informative: "Stringz currently only supports xcode projects (no support for workspaces), Please select a valid (.xcodeproj) file")
+          let _ = Common.alert(message: "Unable to load your project", informative: "Stringz currently only supports Xcode projects (no support for workspaces), Please select a valid (.xcodeproj) file")
         }
       }
 

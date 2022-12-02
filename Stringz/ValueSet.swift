@@ -10,8 +10,8 @@ import Foundation
 
 /// Represents a set of translations for the same string.
 ///
-/// For example a ValueSet with key "cancel" can have an english value of "Cancel"
-/// and a german value of "Cancel" and a Japanese value of "キャンセル" and so on.
+/// For example a ValueSet with key "cancel" can have an English value of "Cancel"
+/// and a German value of "Abbrechen" and a Japanese value of "キャンセル" and so on.
 class ValueSet {
   let uuid = UUID()
 
@@ -20,7 +20,7 @@ class ValueSet {
 
   /// A comment to describe the values in this set.
   ///
-  /// This comment doen't show for users on the UI, It's only used to help developers remember where they should use the value set.
+  /// This comment doesn't show for users on the UI, It's only used to help developers remember where they should use the value set.
   var comment: String = ""
 
   /// The different translations for the string value, contains as many translations as the localizable supports.
@@ -47,9 +47,9 @@ extension ValueSet: Equatable, Hashable {
 extension ValueSet {
   /// Updates the translation value for given language.
   ///
-  /// Might create a new translation if the given  langauge doesn't exist in the value set.
+  /// Might create a new translation if the given language doesn't exist in the value set.
   /// - Parameter value: The new value to be set.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   func setOrAppend(value: String, for language: Language) {
     if let val = self.value(for: language) {
       val.value = value
@@ -60,9 +60,9 @@ extension ValueSet {
 
   /// Updates the translation value for a value given its language.
   ///
-  /// This function does nothing if a value with the given langauge doesn't exist in the value set.
+  /// This function does nothing if a value with the given language doesn't exist in the value set.
   /// - Parameter value: The new value to be set.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   func set(value: String, for language: Language) {
     if let val = self.value(for: language) {
       val.value = value
@@ -71,9 +71,9 @@ extension ValueSet {
 
   /// Updates the original index for a value given its language.
   ///
-  /// This function does nothing if a value with the given langauge doesn't exist in the value set.
+  /// This function does nothing if a value with the given language doesn't exist in the value set.
   /// - Parameter originalIndex: The original index of the value.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   func set(originalIndex: Int?, for language: Language) {
     if let val = self.value(for: language) {
       val.originalIndex = originalIndex
@@ -82,9 +82,9 @@ extension ValueSet {
 
   /// Updates the variable name in value set for given language.
   ///
-  /// This function does nothing if langauge doesn't exist in the value set.
+  /// This function does nothing if language doesn't exist in the value set.
   /// - Parameter variableName: The variable name to be set.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   func set(variableName: String?, for language: Language) {
     if let val = self.value(for: language) {
       val.variableName = variableName
@@ -93,7 +93,7 @@ extension ValueSet {
 
   /// Finds the translation value for given language
   /// - Parameter language: The language to use to find translation in.
-  /// - Returns: The value for given langauge, nil if the language doen't exist.
+  /// - Returns: The value for given language, nil if the language doesn't exist.
   func value(for language: Language) -> Value? {
     return values.value(for: language)
   }
@@ -107,10 +107,10 @@ extension ValueSet {
 extension Array where Element == ValueSet {
   /// Updates the translation of a string value given its key and the language.
   ///
-  /// Might create a new value if the given key of langauge doesn't exist.
+  /// Might create a new value if the given key of language doesn't exist.
   /// - Parameter value: The new value to be set.
   /// - Parameter key: The key of the value set.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   /// - Returns: The value set that was updated or appended.
   mutating func setOrAppend(value: String, for key: String, and language: Language) -> ValueSet {
     var valueSet = self.first(where: { $0.key == key })
@@ -129,7 +129,7 @@ extension Array where Element == ValueSet {
   /// This method does nothing if value set with the given key or language doesn't exist.
   /// - Parameter value: The new value to be set.
   /// - Parameter key: The key of the value set.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   mutating func set(value: String, for key: String, and language: Language) {
     if let valueSet = self.valueSet(for: key) {
       valueSet.set(value: value, for: language)
@@ -152,7 +152,7 @@ extension Array where Element == ValueSet {
   /// This method does nothing if values set with the given key or language doesn't exist.
   /// - Parameter originalIndex: The original index of the value.
   /// - Parameter key: The key of the value set.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   mutating func set(originalIndex: Int?, for key: String, and language: Language) {
     if let valueSet = self.valueSet(for: key) {
       valueSet.set(originalIndex: originalIndex, for: language)
@@ -164,7 +164,7 @@ extension Array where Element == ValueSet {
   /// This method does nothing if values set with the given key or language doesn't exist.
   /// - Parameter variableName: The variable name of info plist value of the value set.
   /// - Parameter key: The key of the value set.
-  /// - Parameter language: The langauge of the value.
+  /// - Parameter language: The language of the value.
   mutating func set(variableName: String?, for key: String, and language: Language) {
     if let valueSet = self.valueSet(for: key) {
       valueSet.set(variableName: variableName, for: language)
@@ -173,7 +173,7 @@ extension Array where Element == ValueSet {
 
 //  /// Finds the comment for value set given its key
 //  /// - Parameter key: The key of the value set.
-//  /// - Returns: The comment for value set, nil if the key doen't exist.
+//  /// - Returns: The comment for value set, nil if the key doesn't exist.
 //  func comment(for key: String) -> String? {
 //    return self.first(where: { $0.key == key })?.comment
 //  }

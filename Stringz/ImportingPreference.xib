@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="18122" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="18122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -106,7 +106,7 @@
                         <gridCell row="LBh-2H-Z3q" column="GRB-EN-USw" id="1YD-lw-dS6">
                             <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="FA9-sf-VGf">
                                 <rect key="frame" x="147" y="549" width="405" height="28"/>
-                                <textFieldCell key="cell" title="If you check this option, only values that consist of with whitespace characters will be ignored, new line character won't." id="6IF-iE-Sbw">
+                                <textFieldCell key="cell" title="If you check this option, only values that consist of whitespace characters will be ignored, new line characters won't." id="6IF-iE-Sbw">
                                     <font key="font" metaFont="message" size="11"/>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
@@ -155,7 +155,7 @@
                         <gridCell row="CKz-sy-mt7" column="GMD-jt-JVo" id="ua5-8S-qWR"/>
                         <gridCell row="CKz-sy-mt7" column="GRB-EN-USw" id="e6N-PE-pX7">
                             <button key="contentView" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="YRO-aZ-jyl">
-                                <rect key="frame" x="147" y="430" width="278" height="18"/>
+                                <rect key="frame" x="147" y="430" width="277" height="18"/>
                                 <buttonCell key="cell" type="check" title="Don't import comments from storyboards" bezelStyle="regularSquare" imagePosition="left" state="on" inset="2" id="4Fc-Qt-v2O">
                                     <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -174,7 +174,7 @@
                         <gridCell row="ROq-yJ-TMQ" column="GRB-EN-USw" id="zWz-xO-JXg">
                             <textField key="contentView" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pRV-aA-bNw">
                                 <rect key="frame" x="147" y="395" width="405" height="28"/>
-                                <textFieldCell key="cell" title="This option only applies to the automatically generated values by Xcode, Any comments you write will always be imported." id="scR-39-FmG">
+                                <textFieldCell key="cell" title="This option only applies to the automatically generated comments by Xcode, Any comments you write will always be imported." id="scR-39-FmG">
                                     <font key="font" metaFont="message" size="11"/>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>

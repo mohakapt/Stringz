@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -99,7 +99,7 @@
                                     <font key="font" metaFont="message" size="11"/>
                                     <string key="title">Determines the order of values in .strings files:
 • "Keep Same" maintains the same ordering for every file separately.
-• "Same as Base" applies the ordering of base file for other files.
+• "Same as Base" applies the ordering of the base file for other files.
 • "Alphabetically Ascending" orders values for all files by key in ascending order.
 • "Alphabetically Descending" orders values for all files by key in descending order.</string>
                                     <color key="textColor" name="systemGrayColor" catalog="System" colorSpace="catalog"/>
@@ -134,12 +134,12 @@
                                     </menu>
                                 </popUpButtonCell>
                                 <connections>
+                                    <binding destination="Ero-U6-fgi" name="selectedIndex" keyPath="values.stringz.exporting.commentStyle" id="o0l-hB-2Fy"/>
                                     <binding destination="Ero-U6-fgi" name="enabled" keyPath="values.stringz.hasOpenProjects" id="ijS-Ow-m4Q">
                                         <dictionary key="options">
                                             <string key="NSValueTransformerName">NSNegateBoolean</string>
                                         </dictionary>
                                     </binding>
-                                    <binding destination="Ero-U6-fgi" name="selectedIndex" keyPath="values.stringz.exporting.commentStyle" id="o0l-hB-2Fy"/>
                                 </connections>
                             </popUpButton>
                         </gridCell>

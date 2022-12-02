@@ -10,9 +10,9 @@ import Foundation
 import XcodeProj
 import PathKit
 
-/// Represints localizable object with all its langauges and files.
-/// A localizable object can contain one or more files depending on the number of supported langauges,
-/// Also it has a type, for exmple a storyboard, xib, strings or config file.
+/// Represents localizable object with all its languages and files.
+/// A localizable object can contain one or more files depending on the number of supported languages,
+/// Also, it has a type, for example, a storyboard, xib, strings, or config file.
 class Localizable {
   let uuid = UUID()
 
@@ -22,16 +22,16 @@ class Localizable {
   /// The name of the parent of the localizable group.
   let parentName: String
 
-  /// The files the localizable contains, Every file contains strings for different language,
+  /// The files the localizable contains, Every file contains strings for a different language,
   /// So the number of files is the same number of supported languages in the localizable.
   var files: [File]
 
-  /// The indivedual values the localizable contains,
-  /// Those values are cross joined from all the files of the localizable.
+  /// The individual values the localizable contains,
+  /// Those values are cross-joined from all the files of the localizable.
   var valueSets: [ValueSet]
 
-  /// Determines whether the localizable is ready, loading, unloaded or saving.
-  /// If status is unlocalized `files` array should contain only one file.
+  /// Determines whether the localizable is ready, loading, unloaded, or saving.
+  /// If the status is unlocalized `files` array should contain only one file.
   var status: LocalizableStatus
 
   init(name: String, parentName: String, files: [File] = [], valueSets: [ValueSet] = [], status: LocalizableStatus = .unloaded) {
