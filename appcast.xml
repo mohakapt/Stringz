@@ -7,6 +7,31 @@
     <language>en</language>
 
     <item>
+      <title>Stringz 0.7.5</title>
+      <pubDate>Thu, 2 Dec 2022 19:00:00 +0000</pubDate>
+      <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.7.5/Stringz-0.7.5.dmg" sparkle:version="44" sparkle:shortVersionString="0.7.5" type="application/octet-stream"/>
+
+      <description>
+          <![CDATA[
+          <p><strong>Good day, Everyone! 👋</strong> In this release more languages were added and some bugs were fixed. The release is marked as a beta because the project is still in its early development stages. Please consider helping the development of this project by testing the app and submitting <a href="https://github.com/mohakapt/Stringz/issues">issues</a> about any problems you might encounter.</p>
+          <p><strong><em>⚠️ Warning:</em></strong></p>
+          <ul>
+          <li><strong>Stringz is still in its early phases</strong>. Please commit your code before using Stringz on your project or if you don&#39;t have version control enabled on your app make a backup of your code.</li>
+          </ul>
+          <p><strong><em>✨ What&#39;s new:</em></strong></p>
+          <ul>
+          <li>Support for more languages. Thanks @samuelbradshaw and @Sherlouk.</li>
+          </ul>
+          <p><strong><em>🐛 Bug fixes:</em></strong></p>
+          <ul>
+          <li>Fixed a bug where some languages wouldn&#39;t load correctly. Thanks @bbigcd.</li>
+          <li>Fixed a crash caused by using an older version of Sparkle. Thanks @Mx-Iris</li>
+          </ul>
+          ]]>
+      </description>
+    </item>
+
+    <item>
       <title>Stringz 0.7.0</title>
       <pubDate>Thu, 31 Mar 2021 00:45:00 +0000</pubDate>
       <enclosure url="https://github.com/mohakapt/Stringz/releases/download/v0.7.0/Stringz-0.7.0.dmg" sparkle:version="43" sparkle:shortVersionString="0.7.0" type="application/octet-stream"/>
