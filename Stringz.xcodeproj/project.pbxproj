@@ -582,7 +582,7 @@
 			repositoryURL = "https://github.com/tuist/xcodeproj.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 7.19.0;
+				minimumVersion = 8.8.0;
 			};
 		};
 		71B65F8F258FE5B300B2A6D2 /* XCRemoteSwiftPackageReference "Preferences" */ = {
@@ -590,7 +590,7 @@
 			repositoryURL = "https://github.com/sindresorhus/Preferences";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.1;
+				minimumVersion = 2.6.0;
 			};
 		};
 		71E0DB4A25A1018B0097F5B5 /* XCRemoteSwiftPackageReference "ValueTransformerKit" */ = {
@@ -614,7 +614,7 @@
 			repositoryURL = "https://github.com/microsoft/appcenter-sdk-apple.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.1.1;
+				minimumVersion = 5.0.0;
 			};
 		};
 		71FFCF5B2613AB8500D7414D /* XCRemoteSwiftPackageReference "Sparkle" */ = {
@@ -622,7 +622,7 @@
 			repositoryURL = "https://github.com/sparkle-project/Sparkle";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 1.26.0;
+				minimumVersion = 2.3.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
