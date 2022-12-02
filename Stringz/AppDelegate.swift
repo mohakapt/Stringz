@@ -11,6 +11,7 @@ import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
 import PathKit
+import Sparkle
 import Preferences
 import Combine
 import ValueTransformerKit
@@ -18,6 +19,7 @@ import ValueTransformerKit
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
   @IBOutlet weak var menuItemAddLanguage: NSMenuItem!
+  @IBOutlet weak var updaterController: SPUStandardUpdaterController!
 
   private var isOpenPanelRunning = false
   private var isQuitting = false

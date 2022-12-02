@@ -25,7 +25,7 @@
                                         <menuItem title="Check for Updates..." id="pAf-V9-sCZ">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
-                                                <action selector="checkForUpdates:" target="fdh-X4-hQZ" id="tqA-zi-xMA"/>
+                                                <action selector="checkForUpdates:" target="fdh-X4-hQZ" id="YdM-4d-VTn"/>
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
@@ -361,7 +361,7 @@ CA
                         <outlet property="menuItemAddLanguage" destination="pa3-QI-u2k" id="wZn-FQ-12j"/>
                     </connections>
                 </customObject>
-                <customObject id="fdh-X4-hQZ" customClass="SUUpdater"/>
+                <customObject id="fdh-X4-hQZ" customClass="SPUStandardUpdaterController"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="60" y="69"/>

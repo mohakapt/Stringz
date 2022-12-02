@@ -286,7 +286,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="GhY-2S-c6t" name="value" keyPath="automaticallyChecksForUpdates" id="ufW-xK-bID"/>
+                                    <action selector="automaticallyCheckForUpdatesChanged:" target="-2" id="Ffy-hU-r4C"/>
                                 </connections>
                             </button>
                         </gridCell>
@@ -299,7 +299,7 @@
                                     <font key="font" metaFont="system"/>
                                 </buttonCell>
                                 <connections>
-                                    <binding destination="GhY-2S-c6t" name="value" keyPath="automaticallyDownloadsUpdates" id="FV4-FN-ZXJ"/>
+                                    <action selector="automaticallyDownloadUpdatesChanged:" target="-2" id="D4d-lp-x1i"/>
                                 </connections>
                             </button>
                         </gridCell>
@@ -398,7 +398,6 @@ Don't worry, we care about privacy as much as you do. None of the data we collec
             <point key="canvasLocation" x="96" y="285"/>
         </customView>
         <userDefaultsController representsSharedInstance="YES" id="7Rw-1a-5Rm"/>
-        <customObject id="GhY-2S-c6t" customClass="SUUpdater"/>
     </objects>
     <resources>
         <image name="lock" width="22" height="22"/>
