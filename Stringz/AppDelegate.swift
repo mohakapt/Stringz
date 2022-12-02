@@ -40,6 +40,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     hidesToolbarForSingleItem: true)
 
   override init() {
+    super.init()
     StringTransformers.register()
   }
 
