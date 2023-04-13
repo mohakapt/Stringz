@@ -8,6 +8,8 @@
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="GeneralPreferenceViewController" customModule="Stringz" customModuleProvider="target">
             <connections>
+                <outlet property="automaticallyCheckForUpdatesButton" destination="dro-29-ca7" id="HmZ-64-gRC"/>
+                <outlet property="automaticallyDownloadUpdatesButton" destination="Y3n-XA-hbz" id="gjE-ir-uf3"/>
                 <outlet property="view" destination="c22-O7-iKe" id="imP-dv-zVJ"/>
             </connections>
         </customObject>
