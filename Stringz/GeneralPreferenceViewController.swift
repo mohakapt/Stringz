@@ -12,7 +12,8 @@ import Sparkle
 final class GeneralPreferenceViewController: PreferenceViewController, PreferencePane {
   let preferencePaneIdentifier = Preferences.PaneIdentifier.general
   let preferencePaneTitle = "General"
-  let toolbarItemIcon = NSImage(named: "preferences.general")!
+  lazy var toolbarItemIcon = NSImage(systemSymbolName: "gear", accessibilityDescription: preferencePaneTitle)!
+  
   override var nibName: NSNib.Name? { "GeneralPreference" }
 
   override func viewDidLoad() {

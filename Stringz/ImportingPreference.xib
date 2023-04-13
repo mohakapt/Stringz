@@ -306,9 +306,8 @@
                                         <segmentedCell key="cell" borderStyle="border" alignment="left" segmentDistribution="fill" style="smallSquare" trackingMode="momentary" id="xe9-xV-jnV">
                                             <font key="font" metaFont="system"/>
                                             <segments>
-                                                <segment toolTip="Add Key" image="action.add.small" width="32"/>
-                                                <segment toolTip="Remove Key" image="action.remove.small" width="32" enabled="NO"/>
-                                                <segment enabled="NO"/>
+                                                <segment toolTip="Add Key" image="plus" catalog="system" width="32"/>
+                                                <segment toolTip="Remove Key" image="minus" catalog="system" width="32" enabled="NO"/>
                                             </segments>
                                         </segmentedCell>
                                         <connections>
@@ -349,12 +348,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="410" height="26"/>
                                 <subviews>
                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mun-q9-p74">
-                                        <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                        <rect key="frame" x="0.0" y="-2.5" width="26" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="26" id="nNC-VH-5vv"/>
                                             <constraint firstAttribute="width" constant="26" id="ui4-Jz-jTK"/>
                                         </constraints>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" id="Ipq-b7-dbO"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" catalog="system" id="Ipq-b7-dbO"/>
                                     </imageView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Mlw-D6-Y6R">
                                         <rect key="frame" x="34" y="6" width="378" height="15"/>
@@ -396,8 +395,8 @@
         </arrayController>
     </objects>
     <resources>
-        <image name="action.add.small" width="20" height="20"/>
-        <image name="action.remove.small" width="20" height="20"/>
-        <image name="lock" width="22" height="22"/>
+        <image name="lock" catalog="system" width="14" height="15"/>
+        <image name="minus" catalog="system" width="14" height="4"/>
+        <image name="plus" catalog="system" width="14" height="13"/>
     </resources>
 </document>

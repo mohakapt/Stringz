@@ -11,7 +11,8 @@ import Preferences
 final class ImportingPreferenceViewController: PreferenceViewController, PreferencePane {
   let preferencePaneIdentifier = Preferences.PaneIdentifier.importing
   let preferencePaneTitle = "Importing"
-  let toolbarItemIcon = NSImage(named: "preferences.importing")!
+  lazy var toolbarItemIcon = NSImage(systemSymbolName: "arrow.down.doc", accessibilityDescription: preferencePaneTitle)!
+  
   override var nibName: NSNib.Name? { "ImportingPreference" }
 
   @IBOutlet weak var arrayController: NSArrayController!

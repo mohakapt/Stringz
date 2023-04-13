@@ -359,12 +359,12 @@ Don't worry, I care about privacy as much as you do. None of the data collected 
                                 <rect key="frame" x="0.0" y="0.0" width="457" height="26"/>
                                 <subviews>
                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fBB-t7-xLM">
-                                        <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                        <rect key="frame" x="0.0" y="-2.5" width="26" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="26" id="JRK-aQ-KHz"/>
                                             <constraint firstAttribute="height" constant="26" id="yaP-oP-qKr"/>
                                         </constraints>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" id="gVY-ft-kPa"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" catalog="system" id="gVY-ft-kPa"/>
                                     </imageView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="mea-Eo-Qtx">
                                         <rect key="frame" x="34" y="6" width="425" height="15"/>
@@ -400,6 +400,6 @@ Don't worry, I care about privacy as much as you do. None of the data collected 
         <userDefaultsController representsSharedInstance="YES" id="7Rw-1a-5Rm"/>
     </objects>
     <resources>
-        <image name="lock" width="22" height="22"/>
+        <image name="lock" catalog="system" width="14" height="15"/>
     </resources>
 </document>

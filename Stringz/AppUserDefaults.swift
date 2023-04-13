@@ -113,7 +113,19 @@ extension UserDefaults {
     ])
 
     if storyboardXcodePath == nil {
-      let xcodePath = NSWorkspace.shared.absolutePathForApplication(withBundleIdentifier: "com.apple.dt.Xcode") ?? "/Applications/Xcode.app"
+      guard let xcodePath = NSWorkspace.shared.urlForApplication(withBundleIdentifier: "com.apple.dt.Xcode")?.path else {
+        Common.alert(
+          message: "You need to install Xcode for Stringz to work.",
+          informative: "Stringz is using ibtool internally to parse localized storyboard and xib files.\n\nPlease install Xcode from https://developer.apple.com/xcode/resources/ or the App Store",
+          positiveButton: "Quit") { response in
+          switch (response) {
+          default:
+            exit(0)
+            break
+          }
+        }
+        return
+      }
 
       let ibtoolPath = Path("\(xcodePath)/Contents/Developer/usr/bin/ibtool")
       if ibtoolPath.exists {

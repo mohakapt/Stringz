@@ -103,7 +103,7 @@ class EditorViewController: NSViewController {
 
         labelEmpty.stringValue = "File is not Loaded"
         buttonEmpty.title = "Load..."
-        buttonEmpty.image = NSImage(named: "action.load.small")
+        buttonEmpty.image = NSImage(systemSymbolName: "square.and.arrow.down", accessibilityDescription: "Load File")
         break
       case .unlocalized:
         scrollView.isHidden = true
@@ -112,7 +112,7 @@ class EditorViewController: NSViewController {
 
         labelEmpty.stringValue = "File is not Localized"
         buttonEmpty.title = "Localize..."
-        buttonEmpty.image = NSImage(named: "action.localize.small")
+        buttonEmpty.image = NSImage(systemSymbolName: "wand.and.stars", accessibilityDescription: "Localize File")
         break
       }
     }

@@ -11,7 +11,8 @@ import Preferences
 final class PlistPreferenceViewController: PreferenceViewController, PreferencePane {
   let preferencePaneIdentifier = Preferences.PaneIdentifier.plist
   let preferencePaneTitle = "Plist"
-  let toolbarItemIcon = NSImage(named: "preferences.plist")!
+  lazy var toolbarItemIcon = NSImage(systemSymbolName: "tablecells", accessibilityDescription: preferencePaneTitle)!
+
   override var nibName: NSNib.Name? { "PlistPreference" }
 
   @IBOutlet weak var arrayController: NSArrayController!

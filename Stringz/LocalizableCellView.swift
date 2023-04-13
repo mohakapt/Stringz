@@ -31,55 +31,59 @@ class LocalizableCellView: NSTableCellView {
       switch localizable?.status {
       case .ready, .saving:
         countHidden = false
-        break;
+        break
+        
       case .loading:
         nameColor = .secondaryLabelColor
         progressHidden = false
         break
+        
       case .unloaded:
         nameColor = .tertiaryLabelColor
         break
+        
       case .unlocalized:
         nameColor = .tertiaryLabelColor
         descriptionHidden = true
         break
 
-      default: break
+      default:
+        break
+        
       }
 
       var toolTip = ""
-      var iconName: String
       var name = ""
       var count = ""
       var description = ""
 
-      if let parentName = localizable?.parentName, !parentName.isEmpty {
+      if let parentName = localizable?.parentName,
+          !parentName.isEmpty {
+        
         toolTip += parentName + "/"
+        
         if hasLongName {
           name += toolTip
         }
       }
-      if let namez = localizable?.name, !namez.isEmpty {
+      
+      if let namez = localizable?.name,
+         !namez.isEmpty {
+        
         if localizable?.localizableType == .config {
           name += namez
         } else {
           name += namez.components(separatedBy: ".").first ?? ""
         }
+        
         toolTip += namez
       }
-      self.toolTip = toolTip
-      labelName.stringValue = name
-
+      
       if localizable?.status == .ready || localizable?.status == .saving {
         let total = localizable?.totalCount ?? 0
         let translated = localizable?.translatedCount ?? 0
 
-        var percentage: Double = 0
-        if total == 0 {
-          percentage = 100
-        } else {
-          percentage = Double(translated) / Double(total) * 100
-        }
+        let percentage: Double = total == 0 ? 100 : Double(translated) / Double(total) * 100
 
         count = "\(translated)/\(total)"
         description = "\(Int(percentage))% completed"
@@ -89,27 +93,6 @@ class LocalizableCellView: NSTableCellView {
         description = "Unloaded"
       }
 
-      switch localizable?.localizableType {
-      case .storyboard:
-        iconName = "file.storyboard"
-        break
-      case .xib:
-        iconName = "file.xib"
-        break
-      case .strings:
-        iconName = "file.strings"
-        break
-      case .config:
-        iconName = "file.config"
-        break
-       default:
-         iconName = "file.other"
-         break
-      }
-
-      labelName.textColor = nameColor
-      labelCount.isHidden = countHidden
-      labelDescription.isHidden = descriptionHidden
       if progressHidden {
         progressIndicator.isHidden = true
         progressIndicator.stopAnimation(progressIndicator)
@@ -117,11 +100,32 @@ class LocalizableCellView: NSTableCellView {
         progressIndicator.isHidden = false
         progressIndicator.startAnimation(progressIndicator)
       }
-      self.toolTip = toolTip
-      iconImage.image = NSImage(named: iconName)!
+      
+      labelName.textColor = nameColor
+      labelCount.isHidden = countHidden
+      labelDescription.isHidden = descriptionHidden
       labelName.stringValue = name
       labelCount.stringValue = count
       labelDescription.stringValue = description
+      self.toolTip = toolTip
+      
+      switch localizable?.localizableType {
+      case .storyboard:
+        iconImage.image = NSImage(systemSymbolName: "doc.richtext", accessibilityDescription: localizable?.name)!
+        break
+      case .xib:
+        iconImage.image = NSImage(systemSymbolName: "doc.text.image", accessibilityDescription: localizable?.name)!
+        break
+      case .strings:
+        iconImage.image = NSImage(systemSymbolName: "doc.append", accessibilityDescription: localizable?.name)!
+        break
+      case .config:
+        iconImage.image = NSImage(systemSymbolName: "doc.badge.gearshape", accessibilityDescription: localizable?.name)!
+        break
+       default:
+        iconImage.image = NSImage(systemSymbolName: "doc", accessibilityDescription: localizable?.name)!
+         break
+      }
     }
   }
 

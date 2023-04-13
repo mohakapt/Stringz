@@ -64,7 +64,7 @@
                         </gridCell>
                         <gridCell row="9u4-px-y8j" column="jOi-Bi-5cq" id="eUI-Cd-cea">
                             <pathControl key="contentView" focusRingType="none" verticalHuggingPriority="750" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XpT-9c-7rU">
-                                <rect key="frame" x="57" y="220" width="290" height="20"/>
+                                <rect key="frame" x="57" y="220" width="267" height="20"/>
                                 <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" focusRingType="none" alignment="left" placeholderString="Cannot locate Xcode on your machine." id="BSl-jM-ZuI">
                                     <font key="font" metaFont="smallSystem"/>
                                     <url key="url" string="file:///Applications/Xcode.app/"/>
@@ -121,12 +121,12 @@ You can still use Stringz without installing Xcode or providing its path, but it
                                 <rect key="frame" x="0.0" y="0.0" width="410" height="26"/>
                                 <subviews>
                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Cxc-2I-Rz1">
-                                        <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                        <rect key="frame" x="0.0" y="-2.5" width="26" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="26" id="3Gx-YS-TbI"/>
                                             <constraint firstAttribute="height" constant="26" id="X92-jK-Mn6"/>
                                         </constraints>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" id="WdS-bw-JZh"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" catalog="system" id="WdS-bw-JZh"/>
                                     </imageView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Z7j-M3-dL1">
                                         <rect key="frame" x="34" y="6" width="378" height="15"/>
@@ -162,6 +162,6 @@ You can still use Stringz without installing Xcode or providing its path, but it
         <userDefaultsController representsSharedInstance="YES" id="u6P-8j-EGL"/>
     </objects>
     <resources>
-        <image name="lock" width="22" height="22"/>
+        <image name="lock" catalog="system" width="14" height="15"/>
     </resources>
 </document>

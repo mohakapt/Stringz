@@ -11,7 +11,8 @@ import Preferences
 final class ExportingPreferenceViewController: PreferenceViewController, PreferencePane {
   let preferencePaneIdentifier = Preferences.PaneIdentifier.exporting
   let preferencePaneTitle = "Exporting"
-  let toolbarItemIcon = NSImage(named: "preferences.exporting")!
+  lazy var toolbarItemIcon = NSImage(systemSymbolName: "arrow.up.doc", accessibilityDescription: preferencePaneTitle)!
+
   override var nibName: NSNib.Name? { "ExportingPreference" }
 
   override func viewDidLoad() {

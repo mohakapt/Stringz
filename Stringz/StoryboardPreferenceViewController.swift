@@ -11,8 +11,9 @@ import PathKit
 
 final class StoryboardPreferenceViewController: PreferenceViewController, PreferencePane {
   let preferencePaneIdentifier = Preferences.PaneIdentifier.xib
-  let preferencePaneTitle = "Stoyboard / Xib"
-  let toolbarItemIcon = NSImage(named: "preferences.storyboard")!
+  let preferencePaneTitle = "Storyboard"
+  lazy var toolbarItemIcon = NSImage(systemSymbolName: "paintbrush.pointed", accessibilityDescription: preferencePaneTitle)!
+
   override var nibName: NSNib.Name? { "StoryboardPreference" }
 
   @IBOutlet weak var pathControl: NSPathControl!

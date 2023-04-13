@@ -220,12 +220,12 @@
                                 <rect key="frame" x="0.0" y="0.0" width="410" height="26"/>
                                 <subviews>
                                     <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Y7M-MR-klQ">
-                                        <rect key="frame" x="0.0" y="0.0" width="26" height="26"/>
+                                        <rect key="frame" x="0.0" y="-2.5" width="26" height="32"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="26" id="9fw-8B-y1B"/>
                                             <constraint firstAttribute="height" constant="26" id="bRY-Oa-tDV"/>
                                         </constraints>
-                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" id="XmR-gd-ptR"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="lock" catalog="system" id="XmR-gd-ptR"/>
                                     </imageView>
                                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="klE-q4-9he">
                                         <rect key="frame" x="34" y="6" width="378" height="15"/>
@@ -261,6 +261,6 @@
         <userDefaultsController representsSharedInstance="YES" id="Ero-U6-fgi"/>
     </objects>
     <resources>
-        <image name="lock" width="22" height="22"/>
+        <image name="lock" catalog="system" width="14" height="15"/>
     </resources>
 </document>
