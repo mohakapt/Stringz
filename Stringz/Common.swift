@@ -11,6 +11,7 @@ import Cocoa
 class Common {
   private static var textFieldDelegate = EmptyTextFieldDelegate()
 
+  @discardableResult
   static func alert(message: String = "", informative: String = "",
                     positiveButton: String = "OK", negativeButton: String? = nil, neutralButton: String? = nil,
                     window: NSWindow? = nil, completion: ((NSApplication.ModalResponse) -> Void)? = nil) -> NSAlert {

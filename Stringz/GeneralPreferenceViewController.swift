@@ -14,20 +14,34 @@ final class GeneralPreferenceViewController: PreferenceViewController, Preferenc
   let preferencePaneTitle = "General"
   let toolbarItemIcon = NSImage(named: "preferences.general")!
   override var nibName: NSNib.Name? { "GeneralPreference" }
-
-  override func viewDidLoad() {
-    super.viewDidLoad()
-  }
-
+  
   var appDelegate: AppDelegate {
     NSApplication.shared.delegate as! AppDelegate
   }
-
-  @IBAction func automaticallyCheckForUpdatesChanged(_ sender: NSButton) {
-    appDelegate.updaterController.updater.automaticallyChecksForUpdates = sender.state == .on
+  
+  @IBOutlet weak var automaticallyCheckForUpdatesButton: NSButton?
+  @IBOutlet weak var automaticallyDownloadUpdatesButton: NSButton?
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
   }
-
+  
+  override func viewWillAppear() {
+    super.viewWillAppear()
+    
+    automaticallyCheckForUpdatesButton?.state = appDelegate.updaterController.automaticallyChecksForUpdates ? .on : .off
+    
+    automaticallyDownloadUpdatesButton?.state = appDelegate.updaterController.automaticallyDownloadsUpdates ? .on : .off
+    
+  }
+  
+  
+  
+  @IBAction func automaticallyCheckForUpdatesChanged(_ sender: NSButton) {
+    appDelegate.updaterController.setAutomaticallyChecksForUpdates(sender.state == .on)
+  }
+  
   @IBAction func automaticallyDownloadUpdatesChanged(_ sender: NSButton) {
-    appDelegate.updaterController.updater.automaticallyDownloadsUpdates = sender.state == .on
+    appDelegate.updaterController.setAutomaticallyDownloadsUpdates(sender.state == .on)
   }
 }

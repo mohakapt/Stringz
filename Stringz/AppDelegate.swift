@@ -11,7 +11,6 @@ import AppCenter
 import AppCenterAnalytics
 import AppCenterCrashes
 import PathKit
-import Sparkle
 import Preferences
 import Combine
 import ValueTransformerKit
@@ -19,8 +18,8 @@ import ValueTransformerKit
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
   @IBOutlet weak var menuItemAddLanguage: NSMenuItem!
-  @IBOutlet weak var updaterController: SPUStandardUpdaterController!
-
+  lazy var updaterController = UpdaterController()
+  
   private var isOpenPanelRunning = false
   private var isQuitting = false
   private var openProjectCountSubscriber: AnyCancellable?
@@ -189,7 +188,7 @@ extension AppDelegate {
       self.continueQuitting(didClose: true)
       return .terminateLater
     } else {
-      let _ = Common.alert(
+      Common.alert(
         message: "You have \(unsavedWindows.count) Stringz projects with unconfirmed changes. Do you want to review these changes before quitting?",
         informative: "If you dont review your projects, all changes will be saved.",
         positiveButton: "Review Changes...",

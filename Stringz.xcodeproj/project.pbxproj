@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0425E16329E7D4DF001A225A /* UpdaterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0425E16229E7D4DF001A225A /* UpdaterController.swift */; };
 		712CBE8E259A79D100204E11 /* StoryboardPreferenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712CBE8D259A79D100204E11 /* StoryboardPreferenceViewController.swift */; };
 		713D9A572573E6E400B1CE76 /* LocalizableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713D9A562573E6E400B1CE76 /* LocalizableType.swift */; };
 		71432575257AC064005E78E9 /* AppNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71432574257AC064005E78E9 /* AppNotifications.swift */; };
@@ -62,6 +63,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0425E16229E7D4DF001A225A /* UpdaterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdaterController.swift; sourceTree = "<group>"; };
 		712CBE8D259A79D100204E11 /* StoryboardPreferenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryboardPreferenceViewController.swift; sourceTree = "<group>"; };
 		713D9A562573E6E400B1CE76 /* LocalizableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableType.swift; sourceTree = "<group>"; };
 		71432574257AC064005E78E9 /* AppNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNotifications.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 				71B371F9259F6036003DB79E /* Preferences */,
 				71B37211259F89FF003DB79E /* StringzApp.swift */,
 				7183A5511EE81960007E88FF /* AppDelegate.swift */,
+				0425E16229E7D4DF001A225A /* UpdaterController.swift */,
 				7183A5771EE81AFD007E88FF /* MainWindowController.swift */,
 				7183A5781EE81AFD007E88FF /* MainViewController.swift */,
 				7183A5791EE81AFD007E88FF /* SidebarViewController.swift */,
@@ -296,7 +299,6 @@
 				TargetAttributes = {
 					7183A54D1EE81960007E88FF = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = PHGV4R6G9J;
 						LastSwiftMigration = 1200;
 						ProvisioningStyle = Automatic;
 					};
@@ -383,6 +385,7 @@
 				71B37216259FA839003DB79E /* AppMenuItems.swift in Sources */,
 				71B37212259F89FF003DB79E /* StringzApp.swift in Sources */,
 				7183A5521EE81960007E88FF /* AppDelegate.swift in Sources */,
+				0425E16329E7D4DF001A225A /* UpdaterController.swift in Sources */,
 				71F4F92A25963D0D00743CB7 /* AppToolbarItems.swift in Sources */,
 				71E0DB4725A0FC810097F5B5 /* AppScenes.swift in Sources */,
 				71E2EB14252CB1E400A9C9AC /* File.swift in Sources */,
@@ -514,7 +517,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 44;
-				DEVELOPMENT_TEAM = PHGV4R6G9J;
+				DEVELOPMENT_TEAM = 8W5R4SG47B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Stringz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -538,7 +541,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 44;
-				DEVELOPMENT_TEAM = PHGV4R6G9J;
+				DEVELOPMENT_TEAM = 8W5R4SG47B;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Stringz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
