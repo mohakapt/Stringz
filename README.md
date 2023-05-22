@@ -69,10 +69,8 @@ Stringz will also highlight missing translations and warn you about duplicate va
 ⬇️ Installation
 </h2>
 
-1. Go to the [releases](https://github.com/mohakapt/Stringz/releases) page for this repository.
-1. Download the latest version of the app from the assets section. (It should be named something like Stringz-x.x.x.dmg).
-1. Open the downloaded file and drag the app to your Applications folder.
-1. The application doesn't have an auto-update feature (yet), so make sure to occasionally check this GitHub repository for new releases.
+- From [releases](https://github.com/mohakapt/Stringz/releases) page of this repository.
+- Via Homebrew ```brew install --cask stringz```
 
 
 <h2 id='section_usage'>
