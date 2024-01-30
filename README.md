@@ -42,7 +42,7 @@ Stringz will also highlight missing translations and warn you about duplicate va
 * ✅ Displays translations in a table side by side and highlights missing values.
 * ✅ Supports all kinds of localizable files like .strings, .storyboard, .xib and .plist.
 * ✅ Supports adding new languages and localizing unlocalized files.
-* ✅ Easy to use and mac in its core.
+* ✅ Easy to use and Mac in its core.
 * ✅ Continuously being improved and updated.
 
 
@@ -81,7 +81,7 @@ Open the application and select your Xcode project (.xcodeproj) in the open dial
 
 Stringz also supports Undo/Redo feature so you don't have to worry about making mistakes while working just hit Ctrl+Z to take your last action back.
 
-The application has an autosave feature so it will automatically save your changes as you make them (You can also disable this feature from preferences if you don't want Xcode to reload every time you update a string).
+The application has an autosave feature to automatically save your changes as you make them (You can also disable this feature from preferences if you don't want Xcode to reload every time you update a string).
 
 The preferences window also contains some useful options regarding importing and exporting localizable files to your project. So I would strongly advise you to check app preferences out.
 
@@ -92,7 +92,7 @@ There is a sample app included in this repository, Stringz was heavily tested wi
 🤝 Contributing
 </h2>
 
-This project is open-source, so you're more than welcomed to contribute to the development of the project. A great way to help to push this project forward is to download it and test it on your applications then submit an [issue](https://github.com/mohakapt/Stringz/issues) about any bugs, crashes or any unexpected behaviors you might encounter, Also suggestions and feature requests are super welcomed. If you have the time and energy please consider making a pull request and I'll work with you to improve the app (working with people gives me the motivation to keep improving) and if you encounter some kind of inconvenience please don't give up on the application, submit an [issue](https://github.com/mohakapt/Stringz/issues) and help make this project better.
+This project is open-source, so you're more than welcome to contribute to the project's development. A great way to help to push this project forward is to download it and test it on your applications then submit an [issue](https://github.com/mohakapt/Stringz/issues) about any bugs, crashes or any unexpected behaviors you might encounter, Also suggestions and feature requests are super welcomed. If you have the time and energy please consider making a pull request and I'll work with you to improve the app (working with people gives me the motivation to keep improving) and if you encounter some kind of inconvenience please don't give up on the application, submit an [issue](https://github.com/mohakapt/Stringz/issues) and help make this project better.
 
 
 <h2 id='section_faq'>
