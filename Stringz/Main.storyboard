@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
         <deployment identifier="macosx"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="22505"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -357,7 +357,6 @@ CA
                 </application>
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Stringz" customModuleProvider="target">
                     <connections>
-                        <outlet property="addLanguageMenuItem" destination="pa3-QI-u2k" id="lSG-PF-2no"/>
                         <outlet property="menuItemAddLanguage" destination="pa3-QI-u2k" id="wZn-FQ-12j"/>
                     </connections>
                 </customObject>
@@ -440,7 +439,7 @@ CA
                                     <nil key="toolTip"/>
                                     <size key="minSize" width="2" height="22"/>
                                     <size key="maxSize" width="10002" height="25"/>
-                                    <searchField key="view" verticalHuggingPriority="750" textCompletion="NO" id="gDc-Zo-0RQ" customClass="InfoSearchField" customModule="Stringz" customModuleProvider="target">
+                                    <searchField key="view" focusRingType="none" verticalHuggingPriority="750" textCompletion="NO" id="gDc-Zo-0RQ" customClass="InfoSearchField" customModule="Stringz" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="14" width="140" height="22"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <searchFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Find" usesSingleLineMode="YES" bezelStyle="round" sendsWholeSearchString="YES" id="q93-Ge-iVg">
@@ -708,7 +707,7 @@ CA
                                                                                     </constraints>
                                                                                     <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="file.strings" id="I1a-t7-O4e"/>
                                                                                 </imageView>
-                                                                                <textField horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="8ig-nN-jUT">
+                                                                                <textField focusRingType="none" horizontalHuggingPriority="750" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="8ig-nN-jUT">
                                                                                     <rect key="frame" x="19" y="1" width="38" height="16"/>
                                                                                     <textFieldCell key="cell" lineBreakMode="truncatingTail" sendsActionOnEndEditing="YES" title="Label" id="iBt-su-0wN">
                                                                                         <font key="font" metaFont="systemMedium" size="13"/>
@@ -716,7 +715,7 @@ CA
                                                                                         <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
                                                                                     </textFieldCell>
                                                                                 </textField>
-                                                                                <textField horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="67F-QL-pDs">
+                                                                                <textField focusRingType="none" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="67F-QL-pDs">
                                                                                     <rect key="frame" x="57" y="1" width="157" height="16"/>
                                                                                     <textFieldCell key="cell" lineBreakMode="clipping" id="Xgz-Lr-hjz">
                                                                                         <font key="font" metaFont="system"/>
@@ -724,7 +723,7 @@ CA
                                                                                         <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                                                                     </textFieldCell>
                                                                                 </textField>
-                                                                                <textField hidden="YES" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Bcj-RN-MKv">
+                                                                                <textField hidden="YES" focusRingType="none" horizontalHuggingPriority="750" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Bcj-RN-MKv">
                                                                                     <rect key="frame" x="-2" y="2" width="35" height="15"/>
                                                                                     <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="PP6-d1-7Xd">
                                                                                         <font key="font" metaFont="systemLight" size="12"/>
@@ -751,7 +750,7 @@ CA
                                                                                 <real value="3.4028234663852886e+38"/>
                                                                             </customSpacing>
                                                                         </stackView>
-                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="STg-RU-Y1j">
+                                                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="STg-RU-Y1j">
                                                                             <rect key="frame" x="-2" y="0.0" width="37" height="16"/>
                                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="Wej-4j-SpH">
                                                                                 <font key="font" metaFont="systemLight" size="13"/>
@@ -795,7 +794,7 @@ CA
                                                                 <stackView distribution="fill" orientation="horizontal" alignment="centerY" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgI-cP-ZLo">
                                                                     <rect key="frame" x="0.0" y="4" width="222" height="50"/>
                                                                     <subviews>
-                                                                        <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JlG-Po-TkH">
+                                                                        <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="JlG-Po-TkH">
                                                                             <rect key="frame" x="-2" y="18" width="205" height="14"/>
                                                                             <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="Label" id="G3r-4g-Pdh">
                                                                                 <font key="font" metaFont="systemMedium" size="11"/>
@@ -942,7 +941,7 @@ CA
                             <stackView distribution="fill" orientation="vertical" alignment="centerX" spacing="12" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uU5-bp-jad">
                                 <rect key="frame" x="266" y="254" width="88" height="19"/>
                                 <subviews>
-                                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="By9-Qm-r8V">
+                                    <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="By9-Qm-r8V">
                                         <rect key="frame" x="-2" y="0.0" width="92" height="19"/>
                                         <textFieldCell key="cell" lineBreakMode="clipping" title="No Selection" id="Ixm-NF-yyU">
                                             <font key="font" metaFont="system" size="15"/>
@@ -952,13 +951,13 @@ CA
                                     </textField>
                                     <button hidden="YES" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Jf1-TB-IIW">
                                         <rect key="frame" x="-1" y="-3" width="122" height="23"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="YWM-fV-JWw"/>
-                                        </constraints>
                                         <buttonCell key="cell" type="roundTextured" bezelStyle="texturedRounded" imagePosition="leading" alignment="center" borderStyle="border" inset="2" id="NsV-rD-egd">
                                             <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                             <font key="font" metaFont="system"/>
                                         </buttonCell>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="120" id="YWM-fV-JWw"/>
+                                        </constraints>
                                         <connections>
                                             <action selector="emptyClicked:" target="s74-HZ-vjw" id="6SC-8G-Va1"/>
                                         </connections>
@@ -1003,7 +1002,7 @@ CA
                         <rect key="frame" x="0.0" y="0.0" width="365" height="146"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2hq-Wd-QX4">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2hq-Wd-QX4">
                                 <rect key="frame" x="18" y="110" width="66" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="String Key" id="ztg-M6-OS8">
                                     <font key="font" metaFont="system"/>
@@ -1011,7 +1010,7 @@ CA
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pib-og-Ihe">
+                            <textField focusRingType="none" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pib-og-Ihe">
                                 <rect key="frame" x="20" y="80" width="325" height="22"/>
                                 <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" placeholderString="Enter key (e.g. action_done)" usesSingleLineMode="YES" bezelStyle="round" id="0QT-sW-wnw">
                                     <font key="font" metaFont="system"/>
@@ -1022,7 +1021,7 @@ CA
                                     <outlet property="delegate" destination="HT2-E8-BF4" id="6kx-zc-oU2"/>
                                 </connections>
                             </textField>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rrk-QE-drG">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rrk-QE-drG">
                                 <rect key="frame" x="32" y="60" width="4" height="14"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" id="jCb-WG-7yh">
                                     <font key="font" metaFont="smallSystem"/>
@@ -1109,7 +1108,7 @@ DQ
                         <rect key="frame" x="0.0" y="0.0" width="450" height="512"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ncR-hx-gGW">
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="ncR-hx-gGW">
                                 <rect key="frame" x="18" y="476" width="48" height="16"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" title="Pro Tip" id="iiB-sj-HNt">
                                     <font key="font" metaFont="system"/>
@@ -1117,11 +1116,11 @@ DQ
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="irb-oc-me3">
+                            <textField focusRingType="none" verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="irb-oc-me3">
                                 <rect key="frame" x="18" y="20" width="414" height="448"/>
                                 <textFieldCell key="cell" selectable="YES" id="iuJ-qS-3Gb">
                                     <font key="font" metaFont="system"/>
-                                    <mutableString key="title">I highly advise naming your strings uniquely and consistently across the project.
+                                    <string key="title">I highly advise naming your strings uniquely and consistently across the project.
 
 For example, For a button you could name the string "action_cancel", The first part (action) means that the string is going to be used to trigger an action, and the second part (cancel) represents the name.
 
@@ -1131,7 +1130,7 @@ Along with "action (for buttons and actions)" I use "title (for screen or alert 
 
     • It gives context for your translator regarding where a string is being used. For example, In English the word "Profile" could be used to refer to "Account Details" but also it could mean "to analyze or to describe someone" but in Spanish, those are two separate words. So naming the keys as "title_profile" or "action_profile" helps your translator to understand the context better.
 
-    • It makes your strings more reusable. For example, In any project, you're most likely going to need the words "OK", "Cancel", "Done", "Delete", or "Refresh"... in many places, So using the method I described above will help you reuse those words instead of defining duplicates in your codebase.</mutableString>
+    • It makes your strings more reusable. For example, In any project, you're most likely going to need the words "OK", "Cancel", "Done", "Delete", or "Refresh"... in many places, So using the method I described above will help you reuse those words instead of defining duplicates in your codebase.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
